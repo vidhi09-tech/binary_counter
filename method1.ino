@@ -2,7 +2,7 @@ int pin1=4;
 int pin2=5;
 int pin3=6;
 int pin4=7;
-int waitTime=1000;                    
+int delayTime=1000;                    
 void setup() {
                                      
 pinMode(pin1, OUTPUT);
@@ -29,13 +29,13 @@ void loop() {
   digitalWrite(pin2, HIGH);
   digitalWrite(pin3, LOW);
   digitalWrite(pin4, LOW);
-  delay(waitTime);
+  delay(delayTime);
 
   digitalWrite(pin1, HIGH);
   digitalWrite(pin2, HIGH);
   digitalWrite(pin3, LOW);
   digitalWrite(pin4, LOW);
-  delay(waitTime);
+  delay(delayTime);
   
   digitalWrite(pin1, LOW);
   digitalWrite(pin2, LOW);
@@ -47,7 +47,7 @@ void loop() {
   digitalWrite(pin2, LOW);
   digitalWrite(pin3, HIGH);
   digitalWrite(pin4, LOW);
-  delay(waitTime);
+  delay(delayTime);
 
   digitalWrite(pin1, LOW);
   digitalWrite(pin2, HIGH);
@@ -59,7 +59,7 @@ void loop() {
   digitalWrite(pin2, HIGH);
   digitalWrite(pin3, HIGH);
   digitalWrite(pin4, LOW);
-  delay(waitTime);
+  delay(delayTime);
 
   digitalWrite(pin1, LOW);
   digitalWrite(pin2, LOW);
@@ -71,7 +71,7 @@ void loop() {
   digitalWrite(pin2, LOW);
   digitalWrite(pin3, LOW);
   digitalWrite(pin4, HIGH);
-  delay(waitTime);
+  delay(delayTime);
 
   digitalWrite(pin1, LOW);
   digitalWrite(pin2, HIGH);
@@ -83,30 +83,30 @@ void loop() {
   digitalWrite(pin2, HIGH);
   digitalWrite(pin3, LOW);
   digitalWrite(pin4, HIGH);
-  delay(waitTime);
+  delay(delayTime);
   
   digitalWrite(pin1, LOW);
   digitalWrite(pin2, LOW);
   digitalWrite(pin3, HIGH);
   digitalWrite(pin4, HIGH);
-  delay(waitTime);
+  delay(delayTime);
 
   digitalWrite(pin1, HIGH);
   digitalWrite(pin2, LOW);
   digitalWrite(pin3, HIGH);
   digitalWrite(pin4, HIGH);
-  delay(waitTime);
+  delay(delayTime);
 
   digitalWrite(pin1, LOW);
   digitalWrite(pin2, HIGH);
   digitalWrite(pin3, HIGH);
   digitalWrite(pin4, HIGH);
-  delay(waitTime);
+  delay(delayTime);
   
   digitalWrite(pin1, HIGH);
   digitalWrite(pin2, HIGH);
   digitalWrite(pin3, HIGH);
   digitalWrite(pin4, HIGH);
-  delay(waitTime);
+  delay(delayTime);
 
 }
